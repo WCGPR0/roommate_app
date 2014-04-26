@@ -1,22 +1,51 @@
 h1{
-    background: rgba(100, 200, 250, 1.0);
     color: white;
-    padding: 150px 0px 100px 0px;
+    background-color:rgba(100, 200, 250, 1.0);
+    padding: 200px 0px 150px 0px;
     text-align: center;
     font-size: 100px;
     margin: 0px 0px 0px 0px;
     font-family: 'Raleway', 'sans-serif';
 }
-h2{
-    background: rgba(0, 0, 0, 0.6);
+p{
+    /*background: rgba(0, 0, 0, 0.6);*/
     text-align: center;
     padding: 50px 0px 50px 0px;
     font-size: 50px;
     color: white;
+    margin: 0px;
+}
+h4{
+    margin: 0;
+    background: rgba(100, 200, 250, 1.0);
+    color: white;
+    text-align: center;
+    font-size:40px;
+    padding: 0px 40px 0px 40px;
+}
+h5{
+    background: rgba(60, 195, 40, 1.0);
+    color: white;
+    padding: 150px 0px 150px 0px;
+    text-align: center;
+    font-size: 100px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Raleway', 'sans-serif';
+}
+h6{
+    margin: 0;
+    background: rgba(60, 195, 40, 1.0);
+    color: white;
+    text-align: center;
+    font-size:40px;
+    padding: 0px 40px 0px 40px;
 }
 ul{
-    padding: 10px 0px 10px 0px;
+    padding: 20px 0px 20px 0px;
     text-align: center;
+}
+a{
+    color:white;
 }
 li{
     display: inline;
@@ -24,7 +53,6 @@ li{
     font-family: 'Raleway', 'sans-serif';
     font-size: 20px;
     background: rgba(100, 200, 250, 1.0);
-    color: white;
 }
 
 .border{
@@ -36,3 +64,44 @@ li{
     border-radius: 2px;
 }
 
+.task {
+    background: rgba(0, 0, 0, 0.6);
+    width: 390px;
+    height: 0px ;
+    margin: 0px;
+}
+
+.li1{
+    display: inline;
+    padding: 0px 40px 0px 40px;
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 20px;
+    background: rgba(60, 195, 40, 1.0);
+}
+
+.border2{
+    margin: 0;
+    border-style:solid;
+    border-width:0px;
+    border-color: #4D4DFF;
+    background-color:rgba(60, 195, 40, 1.0);
+    border-radius: 2px;
+}
+
+.task {
+    display:inline-block;
+    background: rgba(0, 0, 0, 0.6);
+    width: 850px;
+    height: 100px ;
+    margin: 0px;
+}
+
+.sidebar{
+    display:inline-block;
+    background: #6666FF;
+    border-style:solid;
+    border-color: #6666FF;
+    width: 388px;
+    height: 500px ;
+    margin: 0px;
+}
